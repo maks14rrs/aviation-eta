@@ -10,4 +10,5 @@ dependencies = [
     "pyarrow>=25.0.1",
     "requests>=2.34.2",
     "scikit-learn>=1.9.1",
+    "torch>=2.14.0",
 ]
