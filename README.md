@@ -169,6 +169,18 @@ The baseline assumes that during the prediction horizon the aircraft continues w
 
 The purpose of the baseline is to establish a reference point against which machine learning models can be evaluated.
 
+### Initial results
+
+The first evaluation was performed on the validation set using the constant-velocity baseline.
+
+| Forecast horizon | Position MAE | Altitude MAE |
+| ---------------- | -----------: | -----------: |
+| 1 minute         |        929 m |       51.5 m |
+| 3 minutes        |      2.97 km |      186.0 m |
+| 5 minutes        |      7.93 km |      452.1 m |
+
+The results provide a reference point for evaluating machine learning models. The main objective of the next stages is to determine whether learned temporal patterns can improve trajectory prediction compared with this simple kinematic assumption.
+
 ---
 
 ## Planned models
